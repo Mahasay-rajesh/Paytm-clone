@@ -1,0 +1,540 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+}
+/* In between using logo,long paragraph and h1 tag inside under the div */
+#for-pre{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-left:30px;
+}
+#for-logo{
+    height: 50px;
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#for-h1{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left:30px;
+}
+.button-learn-more{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+    width: 145px;
+    background-color:navy;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: Inter,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left:30px;
+    margin-top:30PX;
+}
+.button-learn-more:hover{
+    background-color: #00baf2;
+    color: #000;
+}
+.for-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: Inter,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0px 20px;
+    position: relative;
+    top:30px;
+    left:20px;
+    position: relative;
+    top:45px;
+}
+.for-button:hover{
+    background-color: white;
+    color: black;
+}
+/* Start the main box */
+.mainbox{
+    height:70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 400;
+}
+#logo1{
+    height:60px;
+    width:130px;
+    
+}
+.icon{
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+        background-color: navy;
+        display: flex;
+        align-items: center;
+        transform: translate(5px);
+    }
+.icon:hover{
+    background-color: #00baf2;
+}
+.fa-user{
+    background-color: transparent;
+    color: white;
+    margin-left: 7px;
+    border-radius: 50px;
+}
+.button1{
+    align-items: center;
+    height:34px;
+    width:85px;
+    display: flex;
+    font-weight: 750;
+    border-radius: 20px;
+    background-color: #00baf2;
+}
+.button1:hover{
+    background-color: navy;
+}
+.box1{
+    height:30px;
+    background-color: rgb(181, 182, 182);
+    align-items: center;
+    text-align: center;
+}
+.pre1{
+    margin-left: 0px;
+    color:white;
+}
+.box2{
+    display:flex;
+    height:650px;
+    background-color: #fff;
+}
+.box3{
+    height:500px;
+    margin-top: 120px;
+}
+#text1{
+    margin-top: 20px;
+}
+#pre2{
+    margin-top: 50px;
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+#image1{
+    height:500px;
+    width:500px;
+}
+.screenshot{
+    
+    margin-top: 80px;
+    margin-left: 220px;
+    
+}
+.pay{
+    height:400px;
+    background-color: #00baf2;
+    align-items: center;
+    color: white;
+}
+.pay1{
+    margin:50px 3px;
+    transform: translateY(50px);
+}
+.pay1>h1{
+    font-size: 35px;
+    
+}
+.forpay{
+    margin: 0%;
+    padding: 0%;
+    height: 800px;
+}
+.payment{
+    height:80px;
+    display: flex;
+    margin:120px 0px;
+    justify-content: space-evenly;
+}
+.payment>div{
+    width:125px;
+    height:50px;
+    font-weight: 700;
+    margin: 20px;
+}
+.payment>div>div>img{
+    height:90px;
+    width:90px;
+}
+.forticket{
+    margin:0px;
+    height:400px;
+    padding: 0px;
+    width: 100%;
+    background-color: rgb(26, 6, 26);
+    position: absolute;
+    top: 1200px;
+}
+.ticket{
+    
+    
+    align-items: center;
+    color: white;
+}
+.abc1{
+    height:40px;
+    margin:50px 3px;
+    transform: translateY(50px);
+    
+}
+.abc1>h1{
+    font-size: 35px;;
+}
+
+.ticket1{
+    display: flex;
+    margin: 120px 0px;
+    justify-content: space-evenly;
+    height:150px;
+   
+}
+.ticket1>div{
+    width:125px;
+    height:150px;
+    font-weight: 700;
+    margin: 20px;
+}
+.ticket1>div>div>img{
+    height:90px;
+    width:90px;
+}
+.wallet{
+    margin:0px;
+    background-color: #ccc;
+    height: 800px;
+    align-items: center;
+}
+.wallet>div>h1{
+    font-size: 40px;
+    margin-left: 55px;
+    position: relative;
+    top:55px;
+}
+.box4{
+    display:flex;
+    height:650px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+.box5{
+    height:500px;
+    width: 100%;
+    margin-top: 120px;
+}
+#image2{
+        height:400px;
+        width:400px;
+}
+.screenshot1{
+        margin-top: 80px;
+}
+.walleticon{
+    height:65px;
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.walleticon h3{
+    margin-left: 10px;
+}
+.section2{
+    height: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 40px;
+    position: relative;
+    top:55px;
+}
+.upi{
+    margin:0px;
+    background-color: #ccc;
+    height: 700px;
+}
+.upi-icon{
+    display: flex;
+    width:150px;
+    align-items: center;
+}
+.upi-icon img{
+    height: 80px;
+    width: 80px;
+}
+.upi-transfer{
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 40px;
+    position: relative;
+    top:55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#upi-h1{
+    font-size: 45px;
+    position: relative;
+    top:30px;
+}
+#upi-pre{
+    position: relative;
+    top:35px;
+}
+.postpaid{
+    margin:0px;
+    background-color: #ccc;
+    height: 700px;
+}
+.postpaid-loop{
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 40px;
+    position: relative;
+    top:55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.postpaid-icon img{
+    height: 80px;
+    width: 150px;
+}
+.card{
+    height: 800px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hdfc-card{
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.sbi-card{
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.hdfc-img img{
+    width: 500px;
+    margin-top: 25px;
+}
+.sbi-img img{
+    width: 500px;
+    margin-top: 25px;
+}
+.paytm-hdfc img{
+    height: 30px;
+    width: 120px;
+    margin-top: 30px;
+}
+.paytm-sbi img{
+    height: 30px;
+    width: 120px;
+    margin-top: 30px;
+}
+.hdfc-pre1 h3 pre{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.sbi-pre1 h3 pre{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.hdfc-pre2{
+    margin-top: 30px;
+}
+.sbi-pre2{
+    margin-top: 30px;
+}
+/* Paymentbank style */
+.paymentbank{
+    display:flex;
+    height:680px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+}
+.paymentbank-inner-1{
+    height:500px;
+}
+.paymentbank-inner-1 h1{
+    font-size: 3rem;
+    margin-left: 30px;
+}
+
+#paymentbank-inner-1-id-1-img1{
+    height: 50px;
+    width:170px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+#paymentbank-inner-1-id-4-img2{
+    height:500px;
+    width:500px;
+}
+.paymentbank-inner-1-screenshot{
+    
+    margin-top: 200px;
+    
+}
+/* Paytm-Money Style */
+.paytm-money{
+    
+    display:flex;
+    height:600px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #ccc;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.paytm-money-img-inner-1{
+    height: 400px;
+    width: 400px;
+}
+#paytm-money-id-img-inner-1{
+    height: 400px;
+    width: 400px;
+}
+.paytm-money-logo-prag-inner-2{
+    height: 400px;
+    width: 600px;
+    justify-content: space-between;
+
+}
+.money-1{
+    background-color: white;
+    background-image: url(../Image/background-image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../Image/background-image.avif");
+}
+/* Paytm Insurance style */
+.payment-insurance{
+    display:flex;
+    height:500px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+}
+.payment-insurance-inner-1{
+    height:400px;
+    width: 580px;
+    margin-top: 3rem;
+    margin-left: 30px;
+}
+#payment-insurance-inner-1-id-1-img1{
+    height: 50px;
+    width:170px;
+    margin-top: 3rem;
+}
+#payment-insurance-inner-1-id-4-img2{
+    height:100%;
+    width:100%;
+}
+.payment-insurance-inner-2-screenshot{
+    margin-right: 1rem;
+    height: 500;
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+}
+/* Personal-Loan-Section-Style */
+.personal-loan{
+    display:flex;
+    height:600px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #ccc;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.personal-loan-inner{
+    background-color: white;
+    background-image: url(../Image/background-image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../Image/background-image.avif");
+}
+.personal-loan-img-inner-1{
+    height: 400px;
+    width: 400px;
+    margin-right:120px ;
+}
+#personal-loan-id-img-inner-1{
+    height: 400px;
+    width: 400px;
+}
+.personal-loan-logo-prag-inner-2{
+    height: 400px;
+    width: 600px;
+    justify-content: space-between;
+}
+
